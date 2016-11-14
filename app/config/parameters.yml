@@ -1,0 +1,10 @@
+# This file is auto-generated during the composer install
+parameters:
+    env(DATABASE_URL): 'sqlite:///D:\home\site\wwwroot\blogdemo\symfony-demo-master\app\data\blog.sqlite'
+    mailer_transport: ''
+    mailer_host: null
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    env(SYMFONY_SECRET): secret_value_for_symfony_demo_application
+    env(SYMFONY_LOG): '%kernel.logs_dir%/%kernel.environment%.log'
