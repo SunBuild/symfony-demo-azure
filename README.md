@@ -2,7 +2,9 @@
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
-This application is a fork of [Symfony-demo](https://github.com/symfony/symfony-demo). It uses SQLite. To update the application and use MySQL in-app , you need to update 2 files : config.yml and parameters.yml under app/config directory 
+This application is a fork of [Symfony-demo application](https://github.com/symfony/symfony-demo). It  is a blog application that uses SQLite by default. 
+
+To update the application to use MySQL in-app , you need to update 2 files : config.yml and parameters.yml under app/config directory. If you are update this same application , then you need to convert the SQLite data into a MySQL database and [import your database content](https://blogs.msdn.microsoft.com/appserviceteam/2016/08/18/exporting-your-database-to-local-mysql/) prior to updating the files below. 
 
 In parameters.yml , update the connection information for the MySQL database information
 ```
