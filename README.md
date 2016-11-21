@@ -10,7 +10,7 @@ In parameters.yml , update the connection information for the MySQL database inf
 ```
 # This file is auto-generated during the composer install
 parameters:
-    database_host: 127.0.0.1:52778
+    database_host: 127.0.0.1
     database_name: localdb
     database_user: azure
     database_password: '6#vWHD_$'
